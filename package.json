@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-ci-lab",
+  "version": "1.0.0",
+  "description": "Simple Node.js project for CI Pipeline practice using GitHub Actions",
+  "main": "source/index.js",
+  "scripts": {
+    "start": "node source/index.js",
+    "dev": "nodemon source/index.js",
+    "build": "echo Build Success",
+    "test": "jest",
+    "lint": "npx eslint ."
+  },
+  "keywords": [
+    "nodejs",
+    "ci",
+    "github-actions",
+    "devops"
+  ],
+  "author": "Febriani",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "jest": "^30.0.0",
+    "nodemon": "^3.0.0",
+    "supertest": "^7.0.0"
+  }
+}
