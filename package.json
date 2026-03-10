@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "nodejs-ci-lab",
   "version": "1.0.0",
   "description": "Simple Node.js project for CI Pipeline practice using GitHub Actions",
@@ -29,3 +30,12 @@
     "supertest": "^7.0.0"
   }
 }
+=======
+  "name": "devops-ci-praktikum",
+  "version": "1.0.0",
+  "description": "Simple CI project",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  }
+}
+>>>>>>> 19fbfeda93ee184c1c8fa341a3028d16b567aee3
